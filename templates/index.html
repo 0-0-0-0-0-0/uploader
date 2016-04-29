@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <title>Log in to upload</title>
+ 
+    
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+ 
+    <link href="http://getbootstrap.com/examples/jumbotron-narrow/jumbotron-narrow.css" rel="stylesheet">
+    <link href="signup.css" rel="stylesheet">
+    <script src="../static/js/jquery-1.11.2.js"></script>
+    
+  </head>
+ 
+<body>
+ 
+    <div class="container">
+        <div class="header">
+            <h3 class="text-muted">Log in to Upload</h3>
+        </div>
+
+<div class="jumbotron">
+        <h1>SIGNin</h1>
+        <form class="form-signin" action="/validateLogin" method="post">
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" name="inputPassword" id="inputPassword" class="form-control" placeholder="Password" required autofocus>
+         
+
+ 
+        <div class="jumbotron">
+<button id="btnSignIn" class="btn btn-lg btn-success" type="submit">OK</button>
+            
+           
+        </div>
+        
+</body>
+ 
+</html>
